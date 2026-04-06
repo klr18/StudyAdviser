@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tasksListFragment"
+        android:icon="@drawable/ic_list"
+        android:title="Задачи"/>
+
+    <item
+        android:id="@+id/pomodoro"
+        android:icon="@drawable/ic_pomodoro"
+        android:title="Помодоро"/>
+
+    <item
+        android:id="@+id/scheduleFragment"
+        android:icon="@drawable/ic_schedule"
+        android:title="Расписание"/>
+
+    <item
+        android:id="@+id/userProfileFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="Профиль"/>
+</menu>

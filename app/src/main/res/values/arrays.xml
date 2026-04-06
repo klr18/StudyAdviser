@@ -1,0 +1,27 @@
+<resources>
+    <string-array name="status_array_display">
+        <item>Запланировано</item>
+        <item>Выполняется</item>
+        <item>Завершено</item>
+    </string-array>
+
+    <string-array name="nature_sounds">
+        <item>Цикады</item>
+        <item>Дождь</item>
+        <item>Утро</item>
+    </string-array>
+
+    <string-array name="status_array_values">
+        <item>PLANNED</item>
+        <item>IN_PROGRESS</item>
+        <item>COMPLETED</item>
+    </string-array>
+
+    <string-array name="reminder_times">
+        <item>За 15 минут</item>
+        <item>За 1 час</item>
+        <item>За 1 день</item>
+        <item>За 2 дня</item>
+        <item>За 1 неделю</item>
+    </string-array>
+</resources>

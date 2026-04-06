@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tasksListFragment">
+
+    <fragment
+        android:id="@+id/tasksListFragment"
+        android:name="com.example.studyadviser.TasksListFragment"
+        android:label="Список задач">
+
+        <action
+            android:id="@+id/action_to_add_task"
+            app:destination="@id/addTaskFragment"/>
+
+        <action
+            android:id="@+id/action_tasksList_to_detail"
+            app:destination="@id/detailTaskFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.example.studyadviser.AddTaskFragment"
+        android:label="Новая задача"/>
+
+    <fragment
+        android:id="@+id/detailTaskFragment"
+        android:name="com.example.studyadviser.DetailTaskFragment"
+        android:label="Детали задачи">
+
+        <argument
+            android:name="taskId"
+            app:argType="integer"/>
+
+        <action
+            android:id="@+id/action_detailTask_to_addTaskFragment"
+            app:destination="@id/addTaskFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.example.studyadviser.ScheduleFragment"
+        android:label="Расписание">
+
+        <action
+            android:id="@+id/action_scheduleFragment_to_addScheduleFragment"
+            app:destination="@id/addScheduleFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addScheduleFragment"
+        android:name="com.example.studyadviser.AddScheduleFragment"
+        android:label="Добавить событие" />
+
+    <fragment
+        android:id="@+id/pomodoro"
+        android:name="com.example.studyadviser.PomodoroFragment"
+        android:label="Помодоро" />
+
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.example.studyadviser.UserProfileFragment"
+        android:label="Профиль">
+
+        <action
+            android:id="@+id/action_userProfile_to_editProfile"
+            app:destination="@id/editProfileFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.studyadviser.EditProfileFragment"
+        android:label="Редактировать профиль" />
+
+</navigation>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddScheduleFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:background="?android:attr/windowBackground">
+
+        <!-- Название события -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Название события"
+            android:layout_marginBottom="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/eventNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:maxLines="1"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:importantForAccessibility="yes"
+                android:contentDescription="Поле для ввода названия события"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Spinner для дня недели -->
+        <Spinner
+            android:id="@+id/dayOfWeekSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:importantForAccessibility="yes"
+            android:contentDescription="Выбор дня недели"
+            android:backgroundTint="?attr/colorPrimary"
+            android:dropDownHeight="200dp"/>
+
+        <!-- Место проведения -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Место проведения"
+            android:layout_marginBottom="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/locationEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:importantForAccessibility="yes"
+                android:contentDescription="Поле для ввода места проведения"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Кнопка добавления события -->
+        <Button
+            android:id="@+id/addEventButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Добавить событие"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:importantForAccessibility="yes"
+            android:contentDescription="Кнопка добавления события"
+            android:elevation="4dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

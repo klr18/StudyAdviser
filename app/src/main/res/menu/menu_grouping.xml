@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/menu/menu_grouping.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/group_by_category"
+        android:title="Группировать по категории"/>
+    <item android:id="@+id/group_by_deadline"
+        android:title="Группировать по дедлайну"/>
+    <item android:id="@+id/clear_grouping"
+        android:title="Очистить группировку"/>
+</menu>

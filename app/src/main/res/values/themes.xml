@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.StudyAdviser" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="colorOnSurface">#000000</item>
+        <item name="headerBackground">@color/header_background_light</item>
+    </style>
+
+    <style name="Theme.StudyAdviser" parent="Base.Theme.StudyAdviser" />
+</resources>

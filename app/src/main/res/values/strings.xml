@@ -1,0 +1,30 @@
+<resources>
+    <string-array name="categories">
+        <item>Без категории</item>
+        <item>Работа</item>
+        <item>Личное</item>
+        <item>Домашние задания</item>
+        <item>Курсовые и проекты</item>
+        <item>Подготовка к экзаменам</item>
+        <item>Здоровье и спорт</item>
+        <item>Хобби</item>
+        <item>Социальная жизнь</item>
+        <item>Документы</item>
+        <item>Групповые проекты</item>
+        <item>Чтение книг</item>
+        <item>Онлайн-курсы</item>
+        <item>Путешествия</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

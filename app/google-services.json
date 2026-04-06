@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "836383586634",
+    "project_id": "study-adviser-e02dd",
+    "storage_bucket": "study-adviser-e02dd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836383586634:android:745f4f9f35c83e587629b3",
+        "android_client_info": {
+          "package_name": "com.example.studyadviser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836383586634-8r4sga9tn7brcsehjfqggqvj268fro0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNFE61qAvFWLXh5vpA-1wwaYn2PYkWkEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836383586634-8r4sga9tn7brcsehjfqggqvj268fro0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
